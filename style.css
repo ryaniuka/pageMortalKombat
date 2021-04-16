@@ -1,0 +1,242 @@
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0%; 
+    padding: 0%;
+    font-family: fantasy;
+}
+
+#header1{
+    background-image: url(fundo.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#header1 ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+#header1 ul li{
+    display: inline-block;
+}
+
+#header1 ul li a{
+    text-decoration: none;
+    color: #ffae00;
+    padding: 10px 25px;
+    transition: 0.2s ease;
+    clear: both;
+}
+
+#header1 ul li a:hover{
+    background-color: #ffae00;
+    color: black;
+    border-radius: 3%;
+}
+
+.logo img{
+    float: left;
+    width: 90px;
+    height: auto;
+}
+
+th{
+    font-family: fantasy;
+    font-size: 17px;
+}
+
+td{
+    font-family: sans-serif;
+}
+.menumk{
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botoes{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bt{
+    border: 1px solid #ffae00;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.bt:hover{
+    background-color: #ffae00;
+    color: black;
+    border-radius: 3%;
+}
+
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 0 100px 0;
+}
+
+
+#menup{
+    float: center;
+    margin: 54px;
+}
+
+#menup a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+#menup a:hover{
+    background-color: #ffae00;
+    color: black;
+    border-radius: 3%;
+}
+
+#menum {
+    color: #ffae00;
+    float: left;
+    margin: 25px;
+}
+
+#menum a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+#menum a:hover{
+    background-color: #ffae00;
+    color: black;
+    border-radius: 3%;
+}
+
+
+#divmd{
+    float: right;
+}
+
+#divme{
+    float: left;
+}
+
+
+#vkitana{
+    margin: 50px;
+}
+
+#vsonya{
+    margin: 50px;
+}
+
+#vpack2{
+    margin: 50px;
+}
+
+#vhistoria{
+    margin: 50px;
+}
+
+#bodyhmk{
+    background-image: url(fundop.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#bodyhmk ul li{
+    font-family: serif;
+    list-style-type: square;
+}
+
+
+#divhmk{
+    width: 756px;
+    margin: 0 auto;
+}
+
+#menugame{
+    color: #ffae00;
+    margin: 15px;  
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align:center; 
+}
+
+#menugame a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+#menugame a:hover{
+    background-color: #ffae00;
+    color: black;
+    border-radius: 3%;
+}
+
+#tablegameplay{  
+width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+}
+
+#tablegameplay a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+#tablegameplay a:hover{
+    background-color: #ffae00;
+    color: black;
+    border-radius: 3%;
+}
+
+
+#rightacervo{
+    float: right;
+    margin: 40px;
+}
+
+#leftacervo{
+    float: left;
+    margin: 40px;
+   
+}
+
+#rightacervo h1{
+    font-family: fantasy;
+    font-size: large;
+    margin: 10px;
+}
+
+#leftacervo h1{
+    font-family: fantasy;
+    font-size: large;
+    margin: 10px;
+}
